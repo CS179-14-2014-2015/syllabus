@@ -1,0 +1,5 @@
+*.synctex.*
+*.aux
+.DS_Store
+.Trash
+*.log
