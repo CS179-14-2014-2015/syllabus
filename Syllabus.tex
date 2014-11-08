@@ -284,7 +284,6 @@ Any one of the following will suffice:
 \item Glenn Fiedler's Game Development Articles and Tutorials: \url{http://gafferongames.com/}
 \item The Witness: \url{http://the-witness.net/news/}
 \item Wolfire Games Blog: \url{http://blog.wolfire.com/}
-\item \#AltDevBlogADay: \url{http://altdevblogaday.org/}
 \item Gamasutra: \url{http://www.gamasutra.com/}
 \item Game Physics by David H. Eberly, Morgan Kaufmann
 \item OpenGL Reference: \url{http://www.opengl.org/sdk/docs/man/}
@@ -312,7 +311,12 @@ Any one of the following will suffice:
 \item Depending on your answer, the grade per recitation can drop.
 \item There's no limit on how much you can recite.
 \item The recitation will be totaled in the end to compute the class participation grade.
-\item You may be called after a homework to present it in class. The presentation would last a maximum of 20 minutes and is worth 4\%. The process (architectural decisions, bugs encountered, debugging process and solution) of making the game should be explained. Only the game is needed for presentation: no keynotes allowed.
+\item You may be called after a homework to present it in class. The presentation would last a maximum of 20 minutes and is worth 4\%. The process (architectural decisions, bugs encountered, debugging process and solution) of making the game should be explained. Only the game is needed for presentation; no keynotes allowed.
+\item Excess points are spilled over to other components based on the following formula:
+$$
+\log_2(x + 1)
+$$
+where $x$ is the recitation points in excess of 15.
 \end{enumerate}
 
 \subsection{Project}
@@ -324,7 +328,6 @@ Any one of the following will suffice:
 \item Alternatively, you can implement a technique in the suggested readings and resources section. Consult with me first before proceeding with such endeavor. 
 \item Submit the Group Certificate of Authorship, stating all resources and references used (except for the references listed here), together with the project or during defense. Failure to do so will mean a 0 for the project.
 \item Do not plagiarize. Offenders will be dealt severely.
-\item Usage of git is mandatory. The repository url will be given.
 \item Project grade breakdown:
 \begin{center}
 \begin{tabular}{rl}
@@ -358,21 +361,21 @@ The project defense will be graded individually on the A to F scale (A = 30\%, B
 \begin{enumerate}[noitemsep]
 \item Quizzes are usually unannounced.
 \item Quizzes will be given at the start of the class. Latecomers may only catch up.
-\item Quizzes are to be written on a letter-sized  (8.5 x 11 in) bond paper or posted on Moodle.
+\item Quizzes are to be written on a letter-sized  (8.5 x 11 in) bond paper or posted on Edmodo.
 \item Although not necessary, non-graphing calculators may be used in quizzes.
 \item A decent skill on arithmetic and geometry (including trigonometry) is expected.
-\item Expect quizzes at least once a month especially when a reading assignment is given.
-\item Expect homeworks to come every week.
+\item Expect quizzes when a reading assignment is given.
+\item Expect homework to come every week.
 \item There will be no quiz on the week when a homework is due except when it is a moved deadline.
-\item All homework, including the problem set, is individual unless otherwise specified.
-\item For group homework, grading will be done per pair.
+\item Homework either culminates the activities during class time or puts the students in a situation where they have to discover things. They are to be done by group.
+\item Homework are graded on the scale of 0 to 3.
 \end{enumerate}
 
 \subsection{Hands-on Exercises}
 Hands-on exercises are meant to enhance learning by putting theory into guided practice. These are not graded because I believe that grading them while preventing cheating is a futile effort and a waste of time. As such, it is to the student's discretion whether or not to do the hands-on exercises. Be forewarned though that 1) some homework may rely on the exercises and 2) there may be exam questions that are based on the exercises.
 
 \subsection{Submissions}
-Homework either culminates the activities during class time or puts the students in a situation where they have to discover things. They are to be done by group. All works should be submitted via Github using the following protocol: (taken from \url{https://education.github.com/guide/forks}):
+All works (homework and final project) should be submitted via Github using the following protocol: (taken from \url{https://education.github.com/guide/forks}):
 \begin{enumerate}
 	\item Fork the original repository (there will be one per homework).
 	\item Clone the repository to your computer.
@@ -396,6 +399,7 @@ No submissions will be accepted past 48 hours before the grading deadline (i.e. 
 
 \subsection{Bonuses}
 \begin{itemize}[noitemsep]
+\item Bonus points are given for interesting ``extras'' added to homework.
 \item Up to 8\% will be credited for contributions to any FOSS projects during the semester.
 	\begin{itemize}[noitemsep]
 		\item Multiple contributions will be amalgamated and the total bonus shall not exceed 10\%.
